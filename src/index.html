@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="../scss/custom.scss">
     <title>My Portfolio</title>
 </head>
-<body style="position: relative; overflow-y: scroll;"   data-bs-spy="scroll" data-bs-target="#navbar-portfolio" data-bs-offset="0" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#navbar-portfolio" data-bs-offset="0" tabindex="0">
     <div class="container">
-      <nav id="navbar-portfolio" class="navbar navbar-light bg-light px-3 px-lg-auto fixed-top">
+      <nav id="navbar-portfolio" class="navbar navbar-light bg-light px-3 fixed-top">
         <span class="navbar-brand" >Carlos Velasco IV</span>
         <ul class="nav nav-pills">
           <li class="nav-item">
@@ -31,7 +31,12 @@
       </nav>
     </div>
     <div class="container-fluid">
-      <section class="bg-primary vh-100" id="home">Home</section>
+      <section class="bg-primary vh-100" id="home">
+        <div class="row">
+          <div class="col-6 bg-light h-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas et quidem, beatae, minus nesciunt nisi dolorem sed architecto facilis modi, eum provident! Consectetur, fugiat odio! Voluptatem maiores temporibus autem aliquam?</div>
+          <div class="col-6 bg-grey h-100">Right</div>
+        </div>
+      </section>
       <section class="bg-warning vh-100" id="experience">Experience</section>
       <section class="bg-primary vh-100" id="skills">Skills</section>
       <section class="bg-warning vh-100" id="portfolio">Portfolio</section>
