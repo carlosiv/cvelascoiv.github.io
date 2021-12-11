@@ -1,1 +1,28 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    position: relative; 
+    overflow-y: scroll;
+    background-color: rgb(53, 53, 54);
+}
+
+.main > section {
+    padding-top: 3.5rem;    
+}
+
+.about {
+    background: url(../src/assets/images/about-bg.jpg);
+    opacity: 0.9;
+}
+
+
+@media (max-width: 575.98px) {
+    .order-sm-last {
+        order: 6 !important;
+    }
+
+    .profile-img {
+        padding-top: 3em;
+    }
+    
+  }
