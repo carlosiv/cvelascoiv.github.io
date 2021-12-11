@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="../scss/custom.scss">
     <title>My Portfolio</title>
 </head>
-<body data-bs-spy="scroll" data-bs-target="#navbar-portfolio" data-bs-offset="0" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#navbar-portfolio" data-bs-offset="90" tabindex="0">
     <div class="container">
-      <nav id="navbar-portfolio" class="navbar navbar-light bg-light px-3 fixed-top">
+      <nav id="navbar-portfolio" class="navbar navbar-light bg-light px-3 fixed-top"  data-spy="main" data-bs-offset-top="0">
         <span class="navbar-brand" >Carlos Velasco IV</span>
         <ul class="nav nav-pills">
           <li class="nav-item">
@@ -30,19 +30,30 @@
         </ul>
       </nav>
     </div>
-    <div class="container-fluid">
-      <section class="bg-primary vh-100" id="home">
+    <div class="main container-fluid">
+      <section class="about bg-primary vh-100" id="home">
         <div class="row">
-          <div class="col-6 bg-light h-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas et quidem, beatae, minus nesciunt nisi dolorem sed architecto facilis modi, eum provident! Consectetur, fugiat odio! Voluptatem maiores temporibus autem aliquam?</div>
-          <div class="col-6 bg-grey h-100">Right</div>
+          <div class="intro col-12 col-md-6 order-sm-last order-md-first d-flex justify-content-center align-items-center">
+            <div class="content text-white fw-bold">
+              <h2 class="greetings" data-text="Hi! I am Carlos...">Hi! I am Carlos...</h2>
+              <span>A fullstack web developer</span>
+            </div>
+          </div>
+          <div class="profile col-12 col-md-6 order-sm-first d-flex justify-content-center align-items-center">
+            <div class="profile-img">
+              <img src="../src/assets/images/profile.jpg" alt="Profile Picture" class="img-fluid rounded-circle p-5">
+            </div>
+          </div>
         </div>
       </section>
-      <section class="bg-warning vh-100" id="experience">Experience</section>
+      <section class="bg-warning vh-100" id="experience">
+        <h1>Experience</h1>
+      </section>
       <section class="bg-primary vh-100" id="skills">Skills</section>
       <section class="bg-warning vh-100" id="portfolio">Portfolio</section>
       <section class="bg-primary vh-100" id="contact">Contact</section>
       <section class="bg-warning vh-100" id="footer">Footer</section>
     </div>
-    <script src="./index.js"></script>
+    <script type="module" src="./index.js"></script>
 </body>
 </html>
