@@ -19,6 +19,14 @@ body {
     height: 25px;
 }
 
+
+.social-icon {
+    list-style: none;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
 @media (max-width: 575.98px) {
     .order-sm-last {
         order: 6 !important;
@@ -30,6 +38,15 @@ body {
 
     .experience, .skills, .portfolio, .contact {
         padding-top: 6em;
+        height: 100% !important;
     }
-    
+
+    .social-icon {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+  
   }
