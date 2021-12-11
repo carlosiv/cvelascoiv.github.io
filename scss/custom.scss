@@ -6,7 +6,7 @@ body {
     background-color: rgb(53, 53, 54);
 }
 
-.main > section {
+.home, .experience, .skills, .portfolio, .contact{
     padding-top: 3.5rem;    
 }
 
@@ -15,6 +15,9 @@ body {
     opacity: 0.9;
 }
 
+.progress {
+    height: 25px;
+}
 
 @media (max-width: 575.98px) {
     .order-sm-last {
@@ -22,7 +25,11 @@ body {
     }
 
     .profile-img {
-        padding-top: 3em;
+        padding-top: 3.5em;
+    }
+
+    .experience, .skills, .portfolio, .contact {
+        padding-top: 6em;
     }
     
   }
