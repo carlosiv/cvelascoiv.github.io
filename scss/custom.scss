@@ -15,6 +15,17 @@ body {
     opacity: 0.9;
 }
 
+.greetings {
+    font-size: 4rem;
+    margin-left: 20px;
+    text-shadow: 2px 2px 2px black, .1em 0.1em 0.1em rgb(51, 255, 0);
+}
+
+.detail {
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px black
+}
+
 .progress {
     height: 25px;
 }
@@ -22,9 +33,6 @@ body {
 
 .social-icon {
     list-style: none;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
 }
 
 @media (max-width: 575.98px) {
@@ -34,6 +42,7 @@ body {
 
     .profile-img {
         padding-top: 3.5em;
+        margin-top: 3em;
     }
 
     .experience, .skills, .portfolio, .contact {
@@ -47,6 +56,14 @@ body {
         justify-content: center;
         align-items: center;
         padding: 0;
+    }
+
+    .greetings {
+        font-size: 2.5rem;
+    }
+    .img-fluid{
+       
+        margin-top: 2em !important;
     }
   
   }
